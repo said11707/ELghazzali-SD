@@ -5,6 +5,7 @@ body{
 	padding:0px;
 	background-color:#161616;	
 }
+
 ul{
 	list-style:none;
 }
@@ -74,8 +75,10 @@ nav{
 	transform: translate(-20%,-50%);
 }
 .name p:nth-child(1),.name .details{
-	color:#6c707c;
-	font-size: 16px;
+	color:#454547;
+	font-size: 20px;
+	font-family: Poppins;
+	font-weight: 400;
 }
 .name h1{
 	font-family:Poppins;
@@ -86,7 +89,22 @@ nav{
 }
 #example{
 	margin: 0;
+	animation: animate 3s linear infinite;
+	background: linear-gradient(90deg, #000, #17d1ac, #000);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 3s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
 }
+@keyframes animate {
+	0% {
+	  background-position: -500%;
+	}
+	100% {
+	  background-position: 500%;
+	}
+  }
 .cv-btn{
 	width:200px;
 	height: 45px;
@@ -187,6 +205,9 @@ nav{
 .about-text button:hover{
 	background-color: #FFFFFF;
 	transition: all ease 0.3s;
+}
+.about-text button{
+	color: #ffffff;
 }
 #services{
 		width:100%;
@@ -290,68 +311,119 @@ nav{
 }
 
 #skills{
+
+  color: white;
+  font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
   font-family: 'Open Sans',sans-serif;
   min-height: 100vh;
+  list-style: none;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #f1f1f1;
+  background: #1E1E1E;
 }
 .skills{
-	width: 100%;
-	max-width: 600px;
-	padding: 0 20px;
-  }
-  
-  .skill-name{
-	font-size: 18px;
-	font-weight: 700;
-	text-transform: uppercase;
+	width: 500px;
+	margin: 60px auto;
+	color: white;
+}
+.skills h1{
+	text-align: center;
+	margin-bottom: 30px  ;
+	font-size: 25px;
+}
+.skills li{
 	margin: 20px 0;
-  }
+}
+.bar{
+	background: #335533;
+	display: block;
+	height: 2px;
+	border: 1px solid rgba(0,0,0,0.3);
+	border-radius: 3px;
+	overflow: hidden;
+	box-shadow: 0 0 10px #17d1ac;
+}
+.bar span{
+	height: 2px;
+	float: left;
+	background: #17d1ac;
+}
+.html{
+	width: 90%;
+	animation: html 2s;
+}
+.css{
+	width: 85%;
+	animation: css 2s;
+}
+.jquery{
+	width: 50%;
+	animation: jquery 2s;
+}
+.javascript{
+	width: 70%;
+	animation: javascript 2s;
+}
+.mysql{
+	width: 60%;
+	animation: mysql 2s;
+}
+.php{
+	width: 50%;
+	animation: php 2s;
+}
   
-  .skill-bar{
-	height: 20px;
-	background: #cacaca;
-	border-radius: 8px;
-  }
-  
-  .skill-per{
-	height: 20px;
-	background-color: #0fbcf9;
-	border-radius: 8px;
-	width: 0;
-	transition: 1s linear;
-	position: relative;
-  }
-  
-  .skill-per::before{
-	content: attr(per);
-	position: absolute;
-	padding: 4px 6px;
-	background-color: #000;
-	color: #fff;
-	font-size: 12px;
-	border-radius: 4px;
-	top: -35px;
-	right: 0;
-	transform: translateX(50%);
-  }
-  
-  .skill-per::after{
-	content: '';
-	position: absolute;
-	width: 10px;
-	height: 10px;
-	background-color: #000;
-	top: -16px;
-	right: 0;
-	transform: translateX(50%) rotate(45deg);
-	border-radius: 2px;
-  }
-
+@keyframes html  {
+	0%{
+		width: 0%;
+	}
+	100%{
+		width:90%;
+	}
+}
+@keyframes css  {
+	0%{
+		width: 0%;
+	}
+	100%{
+		width:90%;
+	}
+}
+@keyframes jquery  {
+	0%{
+		width: 0%;
+	}
+	100%{
+		width:90%;
+	}
+}
+@keyframes javascript  {
+	0%{
+		width: 0%;
+	}
+	100%{
+		width:90%;
+	}
+}
+@keyframes mysql  {
+	0%{
+		width: 0%;
+	}
+	100%{
+		width:90%;
+	}
+}
+@keyframes php  {
+	0%{
+		width: 0%;
+	}
+	100%{
+		width:90%;
+	}
+}
 #portfolio{
 	width:100%;
 	box-sizing: border-box;
@@ -434,6 +506,7 @@ width: 100%;
 	display: flex;
 	
 }
+
 #contact-btn{
 	width: 100%;
 	display: flex;
@@ -444,7 +517,8 @@ width: 100%;
 	background-color: #F4F7FF;
 	margin: 20px 0px;
 	box-sizing: border-box;
-	box-shadow:2px 0px 20px rgba(0,0,0,0.4); 
+	box-shadow:2px 0px 20px rgba(0,0,0,0.4);				
+	
 }
 .c-b-heading{
 	font-size: 2rem;
@@ -456,6 +530,16 @@ width: 100%;
 	border-bottom: 2px solid #1E1E1E;
 	
 }
+
+  
+  @keyframes change {
+	from {
+	  background-color: white;
+	}
+	to {
+	  background-color: black;
+	}
+  }
 #contact-btn button{
 	color:#FFFFFF;
 	font-size: 1rem;

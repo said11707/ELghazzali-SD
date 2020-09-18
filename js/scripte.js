@@ -6,6 +6,21 @@ selector(".menu").addEventListener('click', function() {
 });
 
 
+/*Responsive Navigation*/
+$(document).ready(function(){
+    $('.toggle').click(function(){
+        $('.toggle').toggleClass('active')
+        
+        $('nav ul').toggleClass('active-menu')
+       
+        
+    })
+});
+
+
+
+/*Progrése bar Skill*/
+
 function selector(s) {
     return document.querySelector(s);
 };
@@ -24,4 +39,8 @@ $('.skill-per').each(function(){
       }
     });
   });
+
+
+
+  
     

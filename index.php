@@ -9,6 +9,7 @@
 <link rel="shortcut icon" href="images/icon.png">
 <link rel="stylesheet" type="text/css" href="css/style.css"/>
 <!--using FontAwesome---------------->
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
 </head>
 
@@ -22,36 +23,38 @@
 	<!--menu--------->
 	<div class="toggle"></div>
 	<ul class="menu">
-	<li class="active"><a href="#main" >Home</a></li>	
-	<li><a href="#about">About</a></li>	
+	<li class="active"><a href="#main" >Accuil</a></li>	
+	<li><a href="#about">À propos</a></li>	
 	<li><a href="#services">Services</a></li>	
 	<li><a href="#portfolio">Portfolio</a></li>		
 	<li><a href="#contact-form">Contact</a></li>	
 	</ul>
 	<!--language-->
 	<a href="#" class="lang">En</a>
+
 	</nav>
 	<!--name--------------------------->
 	<div class="name">
 	<!--hello------->
 	<p>Hello Word !!</p>
 	<!--name--->
-	<h1 id="example">I'm <font color="#17d1ac">SAID</font> EL ghazzali</h1>
+	<h1 id="example">I'm SAID EL ghazzali</h1>
 	<!--details--------------->
-	<p class="details">In this Video I am gonna show you how to create a personal website with all pages.After Watching this tutorial you will be able to craete website like this</p>
+	<p class="details"><strong>Je suis développeur web étudiant à<strong><a href="https://www.youcode.ma/"> <font color="#fff">You</font><font color="#008AFF">Code</font></a> </strong>  .<br> J’ai la chance de pouvoir étuder et pratiquer se métier.</strong></p>
 	<!--cv button-------------------->
-	<a href="#" class="cv-btn">Download Cv</a>
+	<a href="cv/Said El ghazzali.pdf" class="cv-btn">Download Cv</a>
 	
 		
 	</div>
+	<button>Parlez moi de vos projets</button>
 	<!--down arrow-------------->
 	<div class="black-line" ></div>
 	<!--social---------------->
 	<div class="social">
 	<a href="#"><i class="fab fa-facebook-f"></i></a>	
 	<a href="#"><i class="fab fa-twitter"></i></a>
-	<a href="#"><i class="fab fa-instagram"></i></a>
-	<a href="#"><i class="fab fa-youtube"></i></a>	
+	<a href="#"><i class="fab fa-github"></i></a>
+	<a href="#"><i class="fab fa-linkedin"></i></a>	
 	</div>
 	
 	</section>
@@ -59,10 +62,10 @@
 	<section id="about">
 	<!--text---------------------->
 	<div class="about-text">
-	<h1>About Us</h1>
-	<h2>FreeLancing FrontEnd Developer</h2>
-	<p>Enjoy the ultimate web design editor. Divi is like Photoshop or Sketch for the web. It brings an advanced design interface to WordPress that both beginners and experts will fall in love with. It's incredibly smart, super flexible, amazingly powerful and visual by nature. This is how designing for the web is meant to be done.</p>
-	<button>View More Details</button>
+	<h1>À propos de moi</h1>
+	<h2>Développeur FreeLance FrontEnd </h2>
+	<p>Développeur Web Front-End et Graphique Designer,<br> je suis curieux et passionné par les nouvelles technologies.<br>Je propose un service web de qualité, tout en respectant les standards web actuels.indépendant dans mon travail et j'aime travailler avec agilité.</p>
+	<button><a href="#contact-form">Parlez moi de vos projets</a></button>
 	</div>
 	<!--about-model----------------->
 	<div class="about-model">
@@ -90,7 +93,7 @@
 		</div>
 		<!--text----------------->
 		<div class="s-b-text">
-		<a href="#">With Divi, every part of your website is customizable. You have complete freedom to create the perfect website for you or your clients. Easily change colors, fonts and text styles. Apply stunning animations.</a>	
+		<a href="#">je propose des idées créatives pour le design de votre un site vitrine aux couleurs de votre activité augmente considérablement votre crédibilité auprès de vos clients potentiels. Développement de votre site internet ou bien votre blog personnel, qui vous aidera à obtenir de nouveaux contacts et à avoir une meilleure réputation.</a>	
 		</div>
 		</div>
     <!--box-2---------------->
@@ -104,7 +107,7 @@
 		</div>
 		<!--text----------------->
 		<div class="s-b-text">
-		<a href="#">With Divi, every part of your website is customizable. You have complete freedom to create the perfect website for you or your clients. Easily change colors, fonts and text styles. Apply stunning animations.</a>	
+		<a href="#">Créer des maquettes web, concevoir des interfaces (wireframes, prototypage), réfléchir à une identité graphique sur mesure, respecter une charte graphique, pour vous faire des identités visuelles uniques, qui vous représentent le mieux.</a>	
 		</div>
 		</div>
 	<!--box-3---------------->
@@ -118,7 +121,7 @@
 		</div>
 		<!--text----------------->
 		<div class="s-b-text">
-		<a href="#">With Divi, every part of your website is customizable. You have complete freedom to create the perfect website for you or your clients. Easily change colors, fonts and text styles. Apply stunning animations.</a>	
+		<a href="#">Intégrer des maquettes web, réfléchir sur la performance d’une page web, fournir du code propre pour une maquette peaufinée et un site utilisable sur un maximum d’appareils et navigateurs, c’est mon coeur de métier.</a>	
 		</div>
 		</div>
 	
@@ -127,38 +130,33 @@
 
 	<!-- SKILLS-->
 	<section id="skills">
-		<div class="skills">
-			<div class="skill">
-			  <div class="skill-name">HTML</div>
-			  <div class="skill-bar">
-				<div class="skill-per" per="90"></div>
-			  </div>
-			</div>
-	  
-			<div class="skill">
-			  <div class="skill-name">CSS</div>
-			  <div class="skill-bar">
-				<div class="skill-per" per="70"></div>
-			  </div>
-			</div>
-	  
-			<div class="skill">
-			  <div class="skill-name">Javascript</div>
-			  <div class="skill-bar">
-				<div class="skill-per" per="60"></div>
-			  </div>
-			</div>
-		  </div>
 
-		  <div class="skill">
-			<div class="skill-name">PHP</div>
-			<div class="skill-bar">
-			  <div class="skill-per" per="60"></div>
-			</div>
-		  </div>
-		</div>
+			<div class="skills">
+				<h1>My skills</h1>
+				<li>
+					<h3>HTML5 & CSS</h3><span class="bar"><span class="html"></span></span>
+				</li>
 
-		
+				<li>
+					<h3>BOOTSTRAP</h3><span class="bar"><span class="css"></span></span>
+				</li>
+
+				<li>
+					<h3>JAVASCRIPT/JQuery</h3><span class="bar"><span class="jquery"></span></span>
+				</li>
+
+				<li>
+					<h3>PHP/MYSQL</h3><span class="bar"><span class="javascript"></span></span>
+				</li>
+
+				<li>
+					<h3>WORDPRESS</h3><span class="bar"><span class="mysql"></span></span>
+				</li>
+
+				<li>
+					<h3>GIT/GITLAB</h3><span class="bar"><span class="php"></span></span>
+				</li>
+			</div>
 
 	</section>
 
@@ -172,8 +170,8 @@
 	<div class="p-box">
 	<!--text--------->
 	<div class="overlay-text">
-	<h1>Writting</h1>
-	<p>Client Project</p>	
+	<h1>Voir le site</h1>
+	<a href="#">click ici</a>	
 	</div>
 	<!--bg-img------------->
 	<img src="images/w1.jpg">
@@ -183,51 +181,51 @@
 	<div class="p-box">
 		<!--text--------->
 	<div class="overlay-text">
-	<h1>Ideas</h1>
-	<p>Client Project</p>	
+		<h1>Voir le site</h1>
+		<a href="#">click ici</a>	
 	</div>
 	<!--bg-img------------->
-	<img src="images/w2.jpg">
+	<img src="images/covidtest.png">
 	</div>
 	<!--portfolio-box-3-------->
 	<div class="p-box">
 	<!--text--------->
 	<div class="overlay-text">
-	<h1>Music</h1>
-	<p>Client Project</p>	
+		<h1>Voir le site</h1>
+		<a href="#">click ici</a>
 	</div>
 	<!--bg-img------------->
-	<img src="images/w3.jpg">
+	<img src="images/cochlea.png">
 	</div>
 	<!--portfolio-box-4-------->
 	<div class="p-box">
 	<!--text--------->
 	<div class="overlay-text">
-	<h1>Time</h1>
-	<p>Client Project</p>	
+		<h1>Voir le site</h1>
+		<a href="#">click ici</a>
 	</div>
 	<!--bg-img------------->	
-	<img src="images/w4.jpg">
+	<img src="images/eBusiness.png">
 	</div>
 	<!--portfolio-box-5-------->
 	<div class="p-box">
 	<!--text--------->
 	<div class="overlay-text">
-	<h1>Creative</h1>
-	<p>Client Project</p>	
+		<h1>Voir le site</h1>
+		<a href="#">click ici</a>
 	</div>
 	<!--bg-img------------->	
-	<img src="images/w5.jpg">
+	<img src="images/EliteCorp.png">
 	</div>
 	<!--portfolio-box-6-------->
 	<div class="p-box">
 	<!--text--------->
 	<div class="overlay-text">
-	<h1>Books</h1>
-	<p>Client Project</p>	
+		<h1>Voir le site</h1>
+		<a href="#">click ici</a>	
 	</div>
 	<!--bg-img------------->	
-	<img src="images/w6.jpg">
+	<img src="images/Nearable.png">
 	</div>
 		
 	</div>
@@ -235,16 +233,16 @@
 	<!--Contact-btn------------------>
 	<section id="contact-btn">
 	<!--heading-------------->
-	<h1 class="c-b-heading">If You Have Any Project In Your Mind ?</h1>
+	<h1 class="c-b-heading">VOUS AVEZ UN PROJET WEB À DÉVELOPPER ?</h1>
 	<!--btn-------->
-		<button >Contact Me</button>
+		<button >Contact Moi</button>
 	</section>
 	<!--contact-form------------------->
 	<section id="contact-form">
 	<form>
 	<!--left--------------------------------------->
 	<div class="contact-left">
-	<h1 class="c-l-heading"><font style="border-bottom: 3px solid #1ED98B;">Writ</font>e us</h1>
+	<h1 class="c-l-heading"><font style="border-bottom: 3px solid #1ED98B;">Contact</font>e us</h1>
 	<!--name-------->
 	<div class="f-name">
 	<font >Name</font>
@@ -272,19 +270,6 @@
 	</section>
 	
 	<script type="text/javascript" src="js/JQuery3.3.1.js"></script>
-	<script type="text/javascript" src="./js/scripte.js">
-	
-		  /*Responsive Navigation*/
-	  $(document).ready(function(){
-	 $('.toggle').click(function(){
-		 $('.toggle').toggleClass('active')
-		 
-		 $('nav ul').toggleClass('active-menu')
-		
-		 
-	 })
- });
-  
-	</script>
+	<script type="text/javascript" src="./js/scripte.js">  </script>
 </body>
 </html>
